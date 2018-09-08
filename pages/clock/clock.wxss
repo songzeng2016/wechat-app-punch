@@ -1,0 +1,36 @@
+/* pages/clock/clock.wxss */
+page {
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 10% 5%;
+  box-sizing: border-box;
+  background: #efefef;
+}
+
+.calendar {
+    background-color:white;  /*背景色为白色*/
+    padding-top: 10px;       /*上内边距为10px*/
+    border-radius: 15px;     /*添加边框圆角*/
+    box-shadow: 5px 5px 5px #aaa;
+}
+
+.header {
+    font-size: large;
+    color: #59518d;   
+}
+
+.board {
+    color: #c7cbe2;
+    font-weight: bold;
+}
+
+.button {
+  width: 100%;
+}

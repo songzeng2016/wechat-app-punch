@@ -1,0 +1,18 @@
+<!--pages/clock/clock.wxml-->
+<view class='main'>
+    <calendar        
+      calendar-style="calendar"
+      header-style="header"
+      board-style="board"
+      next="{{false}}" 
+      prev="{{false}}"
+      show-more-days="{{true}}"
+      days-color="{{days_style}}"
+    />
+
+    <text>本月已打卡{{count}}次</text>
+    
+    <button type='primary' class='button' bindtap='clickButton' disabled='{{clock}}'>
+      {{clock ? '今日已打卡' : '打卡'}}
+    </button>
+</view>
