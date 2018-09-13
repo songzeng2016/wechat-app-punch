@@ -1,0 +1,10 @@
+/* pages/record/record.wxss */
+page {
+    height: 100%;
+}
+
+.canvas {
+    width: 700rpx;
+    height: 80%;
+    margin: 0 auto;
+}

@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/record/record",
     "pages/clock/clock",
     "pages/index/index",
     "pages/logs/logs"
